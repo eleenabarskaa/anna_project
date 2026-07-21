@@ -2,12 +2,8 @@ import streamlit as st
 import requests
 
 st.set_page_config(page_title="OSINT Agent Chat", page_icon="🕵️")
-st.title("🕵️ OSINT Agent — тестовый чат")
+st.title("🕵️ OSINT Agent — чат")
 
-st.caption(
-    "⚠️ Используется тестовый webhook (`webhook-test`). "
-    "Перед каждым сообщением нажмите **Execute workflow** в n8n."
-)
 
 N8N_WEBHOOK_URL = st.secrets["N8N_WEBHOOK_URL"]
 
