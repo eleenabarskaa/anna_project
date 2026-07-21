@@ -32,7 +32,7 @@ if user_input:
                 response = requests.post(
                     N8N_WEBHOOK_URL,
                     json={"message": user_input},
-                    timeout=60  # LLM может отвечать дольше обычного API
+                    #timeout=60  # LLM может отвечать дольше обычного API
                 )
 
                 if response.status_code == 200:
