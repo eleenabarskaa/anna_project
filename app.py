@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.set_page_config(page_title="OSINT Agent", page_icon="🕵️", layout="wide")
+st.set_page_config(page_title="Prospecting Engine", page_icon="🔗", layout="wide")
 
 # ============================================================
 # Webhook URLs — add these 4 keys to your .streamlit/secrets.toml
