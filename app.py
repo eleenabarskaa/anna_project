@@ -123,7 +123,7 @@ def render_chat(tab_key, title):
 # ============================================================
 # Sidebar navigation between the two tabs
 # ============================================================
-st.sidebar.title("🕵️ OSINT Agent")
+st.sidebar.title("🔗 Prospecting Engine")
 page = st.sidebar.radio("Navigation", ["Prospect Brief", "Relationship Graph"])
 
 if page == "Prospect Brief":
